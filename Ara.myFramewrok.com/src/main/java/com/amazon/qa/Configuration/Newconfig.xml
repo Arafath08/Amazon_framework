@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>     
+      <signin>//span[@class='pv-nav-link-with-droplist']//span//a[@class='_33ixDQ'][contains(text(),'Sign In')]</signin>  
+      <email>//input[@id='ap_email']</email> 
+      <password>//input[@id='ap_password']</password>
+      <submit>//input[@id='signInSubmit']</submit>
+      
+      <username1>7010336969</username1>
+      <password1>mano17</password1>
+</menu>

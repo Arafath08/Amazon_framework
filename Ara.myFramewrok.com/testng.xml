@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="BDD Test Suite">
+
+	Below Code is for ExtentReport 
+	<listeners>
+		<listener class-name="com.amazon.qa.ExtentReportListener.ExtentReportListener"/>
+	</listeners>
+	
+	<test name="Amazon Test">
+	
+    	<classes>
+    		<class name="com.amazon.qa.TestRunner.TestRunnerClass"/>
+    	</classes>
+    
+	</test> Test
+	
+</suite> Suite -->
+
+<suite name="TestSuite" thread-count="10" parallel="methods" >
+<test name="testGuru">
+<classes>
+<class name="ara.Selenium.com.Ara.myFramewrok.com.Parallelexecution">
+<!-- <include value="executSessionOne" dependsOnMethods="executSessionThree"/>
+<include value="executSessionThree"/> -->
+<!-- <methods>
+                <include name = "etest"/> 
+                <include name = "dtest"/> 
+                <include name = "ctest"/> 
+            </methods> -->
+</class>
+</classes>
+</test>
+</suite>
