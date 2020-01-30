@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
-  <test thread-count="3" name="testGuru(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
       <class name="ara.Selenium.com.Ara.myFramewrok.com.Parallelexecution">
         <methods>
-          <include name="executSessionThree"/>
-          <include name="executeSessionTwo"/>
-          <include name="executSessionOne"/>
+          <include name="ctest"/>
+          <include name="btest"/>
+          <include name="atest"/>
+          <include name="dtest"/>
+          <include name="etest"/>
         </methods>
       </class> <!-- ara.Selenium.com.Ara.myFramewrok.com.Parallelexecution -->
     </classes>
-  </test> <!-- testGuru(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

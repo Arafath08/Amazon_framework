@@ -5,9 +5,11 @@
     <classes>
       <class name="ara.Selenium.com.Ara.myFramewrok.com.Parallelexecution">
         <methods>
-          <include name="executSessionThree"/>
-          <include name="executeSessionTwo"/>
-          <include name="executSessionOne"/>
+          <include name="ctest"/>
+          <include name="btest"/>
+          <include name="atest"/>
+          <include name="dtest"/>
+          <include name="etest"/>
         </methods>
       </class> <!-- ara.Selenium.com.Ara.myFramewrok.com.Parallelexecution -->
     </classes>
