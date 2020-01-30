@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26981" started-at="2019-12-23T07:44:17Z" finished-at="2019-12-23T07:44:44Z">
+  <suite name="Default suite" duration-ms="155987" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26981" started-at="2019-12-23T07:44:17Z" finished-at="2019-12-23T07:44:44Z">
+    <test name="Default test" duration-ms="155987" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
       <class name="ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@4671e53b]" name="startBrowser" is-config="true" duration-ms="15" started-at="2019-12-23T07:44:17Z" finished-at="2019-12-23T07:44:17Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="startBrowser" is-config="true" duration-ms="52" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="startApp()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@4671e53b]" name="startApp" duration-ms="26936" started-at="2019-12-23T07:44:17Z" finished-at="2019-12-23T07:44:44Z">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="startApp" duration-ms="155879" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@4671e53b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-12-23T07:44:44Z" finished-at="2019-12-23T07:44:44Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-01-19T06:39:06Z" finished-at="2020-01-19T06:39:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

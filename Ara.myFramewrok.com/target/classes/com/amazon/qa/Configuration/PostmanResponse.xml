@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<data type="PERSON_NAME">
+<user id="a1" password="arafath">
+<name>
+<full.name>MSTR Rob Nader jane HOMEMAKER</full.name>
+<prefix>MSTR</prefix>
+<first.name>Rob</first.name>
+<last.name>Martin</last.name>
+<std.prefix>MASTER</std.prefix>
+<std.first.name>ROBERT</std.first.name>
+<std.middle.name>NADER</std.middle.name>
+<std.last.name>JANE</std.last.name>
+<std.title>HOMEMAKER</std.title>
+<parse.status>PARSED BY PATTERN - [810]</parse.status>
+</name>
+</user>
+<person id="A2">
+<name>
+<full.name>Jim Wilkes Test</full.name>
+<prefix>Mr</prefix>
+<first.name>Jim</first.name>
+<last.name>Wilkes</last.name>
+<std.first.name>JAMES</std.first.name>
+<std.middle.name>WILKES</std.middle.name>
+<std.last.name>TEST</std.last.name>
+<parse.status>PARSED BY PATTERN - [19]</parse.status>
+</name>
+</person>
+</data>
