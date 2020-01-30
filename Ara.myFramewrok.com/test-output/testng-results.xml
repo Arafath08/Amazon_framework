@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="155987" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
+  <suite name="Suite" duration-ms="24247" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="155987" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
-      <class name="ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="startBrowser" is-config="true" duration-ms="52" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:36:30Z">
+    <test name="Test" duration-ms="24247" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:07Z">
+      <class name="ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1">
+        <test-method status="PASS" signature="dtest()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1@192d3247]" name="dtest" duration-ms="22106" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="startApp()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="startApp" duration-ms="155879" started-at="2020-01-19T06:36:30Z" finished-at="2020-01-19T06:39:06Z">
+        </test-method> <!-- dtest -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1@192d3247]" name="btest" duration-ms="23449" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML@43738a82]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-01-19T06:39:06Z" finished-at="2020-01-19T06:39:06Z">
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="ctest()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1@192d3247]" name="ctest" duration-ms="24209" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- ara.Selenium.com.Ara.myFramewrok.com.LoginPageTest_XML -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- ctest -->
+        <test-method status="PASS" signature="atest()[pri:0, instance:ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1@192d3247]" name="atest" duration-ms="23641" started-at="2020-01-30T10:24:42Z" finished-at="2020-01-30T10:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+      </class> <!-- ara.Selenium.com.Ara.myFramewrok.com.parallelexecution1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

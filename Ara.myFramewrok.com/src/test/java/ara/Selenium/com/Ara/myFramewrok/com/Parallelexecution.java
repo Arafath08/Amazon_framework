@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Parallelexecution {
-    @Test(priority=0)    
+    @Test(threadPoolSize=5,invocationCount=1)    
     public void atest(){
             //First session of WebDriver
         System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
